@@ -75,4 +75,7 @@ PRODUCT_PACKAGES += \
     QSTileDividedCircle \
     QSTileNeonLight \
     QSTileOxygen \
-    QSTileTriangles
+    QSTileTriangles \
+    QSTileSquircle \
+    QSTileTearDrop
+
