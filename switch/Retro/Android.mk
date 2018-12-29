@@ -3,8 +3,8 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_PACKAGE_NAME := NarrowSwitch
-LOCAL_RRO_THEME := NarrowSwitch
+LOCAL_PACKAGE_NAME := RetroSwitch
+LOCAL_RRO_THEME := RetroSwitch
 LOCAL_SDK_VERSION := current
 LOCAL_CERTIFICATE := platform
 LOCAL_PRODUCT_MODULE := true

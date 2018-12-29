@@ -49,12 +49,13 @@ PRODUCT_PACKAGES += \
 
 # Switch themes
 PRODUCT_PACKAGES += \
-    SwitchOnePlus \
-    SwitchStock \
-    Contained \
-    Retro \
-    Narrow \
-    SwitchTelegram
+    ContainedSwitch \
+    MD2Switch \
+    NarrowSwitch \
+    OnePlusSwitch \
+    RetroSwitch \
+    StockSwitch \
+    TelegramSwitch
 
 # QS Tile styles
 PRODUCT_PACKAGES += \
