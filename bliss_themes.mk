@@ -108,5 +108,11 @@ PRODUCT_PACKAGES += \
     QSTileOxygen \
     QSTileTriangles \
     QSTileSquircle \
-    QSTileTearDrop
+    QSTileTearDrop \
+    QStileBadge \
+    QStileBadgetwo \
+    QStileGear \
+    QStileStar \
+    QStileHexagon \
+    QStileDiamond
 
