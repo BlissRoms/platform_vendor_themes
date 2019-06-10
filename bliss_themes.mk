@@ -70,4 +70,9 @@ PRODUCT_PACKAGES += \
     QStileSquaremedo \
     QStileInkDrop \
     QStileCookie \
-    QStilesCircleOutline
+    QStilesCircleOutline \
+    QSTileCosmos \
+    QSTileDividedCircle \
+    QSTileNeonLight \
+    QSTileOxygen \
+    QSTileTriangles
