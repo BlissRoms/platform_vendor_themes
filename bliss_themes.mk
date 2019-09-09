@@ -93,3 +93,6 @@ PRODUCT_PACKAGES += \
     QSTileSquircle \
     QSTileTearDrop
 
+# PixelSetupWizard overlay
+PRODUCT_PACKAGES += \
+    PixelSetupWizardOverlay
