@@ -42,6 +42,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AccentColorGradientIndianOverlay
 
+# Themes stub
+PRODUCT_PACKAGES += \
+    blissThemesStub
+
 # Primary Themes
 #PRODUCT_PACKAGES += \
 #    PrimaryAlmostBlack \
