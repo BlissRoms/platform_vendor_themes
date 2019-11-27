@@ -25,10 +25,6 @@
 #    TelecommTheme \
 #    DocumentsUITheme
 
-# Fonts
-#PRODUCT_PACKAGES += \
-#    BlissFonts
-
 # Accent Themes
 PRODUCT_PACKAGES += \
     AccentBliss \
@@ -80,6 +76,10 @@ PRODUCT_PACKAGES += \
     AccentWarmthOrange \
     AccentWhite \
     AccentColorMint
+
+# Fonts
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/themes/Fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
 
 # Primary Themes
 #PRODUCT_PACKAGES += \
