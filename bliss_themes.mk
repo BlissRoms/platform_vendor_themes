@@ -32,6 +32,10 @@
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/themes/prebuilt/system/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
 
+# Gradient
+PRODUCT_PACKAGES += \
+    AccentColorGradientIndianOverlay
+
 # Primary Themes
 #PRODUCT_PACKAGES += \
 #    PrimaryAlmostBlack \
