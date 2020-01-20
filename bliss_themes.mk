@@ -20,6 +20,11 @@ DEVICE_PACKAGE_OVERLAYS += vendor/themes/overlay/common
 # Allow overlays to be excluded from enforcing RRO
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/themes/overlay/common
 
+# Themes
+PRODUCT_PACKAGES += \
+    SolarizedDarkSystemOverlay \
+    SolarizedDarkSystemUIOverlay
+
 # fonts
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/themes/prebuilt/system/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
