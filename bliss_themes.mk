@@ -22,6 +22,8 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/themes/overlay/common
 
 # Themes
 PRODUCT_PACKAGES += \
+    DarkGreySystemOverlay \
+    DarkGreySystemUIOverlay \
     PitchBlackSystemOverlay \
     PitchBlackSystemUIOverlay \
     SolarizedDarkSystemOverlay \
