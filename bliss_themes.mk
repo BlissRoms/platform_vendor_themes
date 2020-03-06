@@ -29,6 +29,14 @@ PRODUCT_PACKAGES += \
         GVM-URM-R \
         GVM-URM-S
 
+# Navbar Themes
+PRODUCT_PACKAGES += \
+    StockAsusOverlay \
+    NavbarAsusOverlay \
+    NavbarOnePlusOverlay \
+    NavbarOneUiOverlay \
+    NavbarTecnoCamonOverlay
+
 # QS header styles
 PRODUCT_PACKAGES += \
     QSHeaderBlack \
