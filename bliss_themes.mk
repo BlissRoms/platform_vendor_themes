@@ -28,6 +28,8 @@ PRODUCT_PACKAGES += \
     PitchBlackSystemUIOverlay \
     SolarizedDarkSystemOverlay \
     SolarizedDarkSystemUIOverlay \
+    MaterialOceanSystemOverlay \
+    MaterialOceanSystemUIOverlay \
     XtendedClearSystemOverlay \
     XtendedClearSystemUIOverlay
 
