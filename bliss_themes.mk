@@ -42,4 +42,9 @@ PRODUCT_PACKAGES += \
     PrimaryWhite \
     PrimaryColdWhite \
     PrimaryWarmWhite \
-    PrimaryDarkBlue
+    PrimaryDarkBlue \
+    PrimaryColorCharcoalBlackOverlay \
+    PrimaryColorLeadBlackOverlay \
+    PrimaryColorSolarizedDarkOverlay \
+    PrimaryFlameOverlay \
+    PrimaryColorOneplusDarkOverlay
