@@ -14,27 +14,13 @@
 # limitations under the License.
 #
 
-# Misc Themes
-#PRODUCT_PACKAGES += \
-#    NotificationsDark \
-#    NotificationsLight \
-#    DocumentsUITheme \
-#    NotificationsPrimary \
-#    NotificationsBlack \
-#    DialerTheme \
-#    TelecommTheme \
-#    DocumentsUITheme
-
-# Fonts
-#PRODUCT_PACKAGES += \
-#    BlissFonts
-
- # Overlays
+# Overlays
 DEVICE_PACKAGE_OVERLAYS += vendor/themes/overlay/common
 
 # Allow overlays to be excluded from enforcing RRO
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/themes/overlay/common
 
+# fonts
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/themes/prebuilt/system/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
 
@@ -47,50 +33,13 @@ PRODUCT_PACKAGES += \
     blissThemesStub
 
 # Primary Themes
-#PRODUCT_PACKAGES += \
-#    PrimaryAlmostBlack \
-#    PrimaryBlack \
-#    PrimaryBliss \
-#    PrimaryBlissClear \
-#    PrimaryEyeSoother \
-#    PrimaryWhite \
-#    PrimaryColdWhite \
-#    PrimaryWarmWhite \
-#    PrimaryDarkBlue
-
-# QS tile styles
-#PRODUCT_PACKAGES += \
-#    QSTileDefault \
-#    QSTileCircleTrim \
-#    QSTileCircleDualTone \
-#    QSTileCircleGradient \
-#    QSTileCircleOutline \
-#    QSTileCookie \
-#    QSTileDottedCircle \
-#    QSTileDualToneCircle \
-#    QSTileInk \
-#    QSTileInkdrop \
-#    QSTileMountain \
-#    QSTileNinja \
-#    QSTileOreo \
-#    QSTileOreoCircleTrim \
-#    QSTileOreoSquircleTrim \
-#    QSTilePokesign \
-#    QSTileSquaremedo \
-#    QSTileSquircle \
-#    QSTileSquircleTrim \
-#    QSTileTeardrop \
-#    QSTileWavey
-
-# Themes
-#PRODUCT_PACKAGES += \
-#    Stock \
-#    DarkBlissTheme \
-#    BlackBlissTheme \
-#    PixelTheme \
-#    SluttyPinkTheme \
-#    DarknessMeisterTheme \
-#    SmokedGreenTheme \
-#    AmberTheme \
-#    Bl4ckAndYell0Theme \
-#    GboardDarkTheme
+PRODUCT_PACKAGES += \
+    PrimaryAlmostBlack \
+    PrimaryBlack \
+    PrimaryBliss \
+    PrimaryBlissClear \
+    PrimaryEyeSoother \
+    PrimaryWhite \
+    PrimaryColdWhite \
+    PrimaryWarmWhite \
+    PrimaryDarkBlue
