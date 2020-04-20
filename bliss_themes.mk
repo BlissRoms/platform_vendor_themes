@@ -43,6 +43,9 @@ PRODUCT_PACKAGES += \
     PrimaryColdWhite \
     PrimaryWarmWhite \
     PrimaryDarkBlue \
+    PrimaryColorBlissBlackOverlay \
+    PrimaryColorOceanOverlay \
+    PrimaryColorNatureOverlay \
     PrimaryColorCharcoalBlackOverlay \
     PrimaryColorLeadBlackOverlay \
     PrimaryColorSolarizedDarkOverlay \
