@@ -34,18 +34,13 @@ PRODUCT_PACKAGES += \
 
 # Primary Themes
 PRODUCT_PACKAGES += \
-    PrimaryAlmostBlack \
-    PrimaryBlack \
-    PrimaryBliss \
-    PrimaryBlissClear \
-    PrimaryEyeSoother \
-    PrimaryWhite \
-    PrimaryColdWhite \
-    PrimaryWarmWhite \
-    PrimaryDarkBlue \
     PrimaryColorBlissBlackOverlay \
     PrimaryColorOceanOverlay \
     PrimaryColorNatureOverlay \
+    PrimaryColorDarkBlueOverlay \
+    PrimaryColorEyeSootherOverlay \
+    PrimaryColorBlissClearOverlay \
+    PrimaryColorAlmostBlackOverlay \
     PrimaryColorCharcoalBlackOverlay \
     PrimaryColorLeadBlackOverlay \
     PrimaryColorSolarizedDarkOverlay \
