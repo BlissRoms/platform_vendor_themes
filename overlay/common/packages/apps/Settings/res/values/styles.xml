@@ -28,4 +28,16 @@
         <item name="android:tint">@*android:color/accent_device_default_light</item>
     </style>
 
+    <style name="SliceViewStyle">
+        <!-- 2dp start padding for the start icon -->
+        <item name="android:paddingStart">2dp</item>
+
+        <!-- End margin of content without end items is 24dp.
+             android:paddingEnd = 24 - 16(contentEndPadding) -->
+        <item name="android:paddingEnd">8dp</item>
+
+        <item name="rowStyle">@style/SliceRowStyle</item>
+        <item name="android:background">@*android:color/primary_dark_device_default_settings</item>
+    </style>
+
 </resources>
