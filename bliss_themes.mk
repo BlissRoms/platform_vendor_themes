@@ -27,7 +27,9 @@ PRODUCT_PACKAGES += \
     PitchBlackSystemOverlay \
     PitchBlackSystemUIOverlay \
     SolarizedDarkSystemOverlay \
-    SolarizedDarkSystemUIOverlay
+    SolarizedDarkSystemUIOverlay \
+    XtendedClearSystemOverlay \
+    XtendedClearSystemUIOverlay
 
 # fonts
 PRODUCT_COPY_FILES += \
