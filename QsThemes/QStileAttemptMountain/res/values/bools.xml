@@ -4,5 +4,8 @@
     <!-- Whether to use the mask for the quicksettings icons-->
     <bool name="config_useMaskForQs">false</bool>
 
+    <!-- Whether to invert the icon color for active quicksettings icons-->
+    <bool name="config_useInvertedQsIconColor">true</bool>
+
 </resources>
 
