@@ -84,4 +84,8 @@
     <!-- Size of the edge panel arrow -->
     <dimen name="navigation_edge_panel_height">20dp</dimen>
 
+    <!-- Padding between signal cluster and battery icon -->
+    <!-- 2dp -->
+    <dimen name="signal_cluster_battery_padding">4dp</dimen>
+
 </resources>
