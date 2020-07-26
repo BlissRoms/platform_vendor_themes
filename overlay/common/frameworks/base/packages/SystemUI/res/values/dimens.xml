@@ -88,4 +88,6 @@
     <!-- 2dp -->
     <dimen name="signal_cluster_battery_padding">4dp</dimen>
 
+    <dimen name="rounded_corner_content_padding">8dp</dimen>
+
 </resources>
