@@ -50,7 +50,6 @@ PRODUCT_PACKAGES += \
     PrimaryColorNatureOverlay \
     PrimaryColorDarkBlueOverlay \
     PrimaryColorEyeSootherOverlay \
-    PrimaryColorBlissClearOverlay \
     PrimaryColorAlmostBlackOverlay \
     PrimaryColorCharcoalBlackOverlay \
     PrimaryColorLeadBlackOverlay \
