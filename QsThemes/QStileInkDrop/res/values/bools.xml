@@ -4,5 +4,8 @@
     <!-- Whether to use the mask for the quicksettings icons-->
     <bool name="config_useMaskForQs">false</bool>
 
+    <!-- Whether to use accent color quicksettings icons-->
+    <bool name="config_useAccentColor">true</bool>
+
 </resources>
 
