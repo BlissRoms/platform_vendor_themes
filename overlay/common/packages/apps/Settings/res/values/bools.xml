@@ -17,12 +17,6 @@
 */
 -->
 <resources>
-    <!--
-        Whether or not the homepage should be powered by legacy suggestion (versus contextual cards)
-        Default to true as not all devices support contextual cards.
-    -->
-    <bool name="config_use_legacy_suggestion">false</bool>
-
     <!-- When true enable gesture setting. -->
     <bool name="config_gesture_settings_enabled">true</bool>
 
