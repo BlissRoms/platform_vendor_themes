@@ -288,9 +288,6 @@
     -->
     <string name="config_wallpaperCropperPackage">com.google.android.apps.wallpaper</string>
 
-    <!-- Enable the RingtonePickerActivity in 'com.android.providers.media'. -->
-    <bool name="config_defaultRingtonePickerEnabled">false</bool>
-
     <!-- The package of the time zone rules data application. Expected to be configured
          by OEMs to reference their own priv-app APK package.
          A package-targeted com.android.intent.action.timezone.TRIGGER_RULES_UPDATE_CHECK intent
